@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.atributo{
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+form{
+  background-color: whitesmoke;
+  height: 100%;
+  border-radius: 10px;
+  
+}
+
+.avatar{
+  left: 1450px;
+  bottom: 50px;
+}
+
+.select{
+  border: 1px solid rgb(218, 215, 215);
+  border-radius: 4px;
+  height: 40px;
+  width: 197px;
+}
+
+link{
+  margin: 0px;
+}
+
+.fondo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+.p{
+  background-image: url(./img/FondoLogin.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  position: absolute;
+}
+
+.overflow_sideBar{
+  overflow-y: hidden;
+}
+
+.body{
+  height: 100vh;
+  background-image: url(./img/FondoLogin.jpg);
+}
+
+.login-box {
+  width: 320px;
+  height: 300px;
+  background: #000;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 0px 30px;
+}
+
+.login-box h1 {
+ 
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-size: 20px;
+}
+
